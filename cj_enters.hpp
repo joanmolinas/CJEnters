@@ -1,5 +1,5 @@
-#ifndef cj_enters_hh
-#define cj_enters_hh
+#ifndef cj_enters_hpp
+#define cj_enters_hpp
 #include <iostream>
 
 using namespace std;

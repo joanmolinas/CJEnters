@@ -1,4 +1,4 @@
-#include "cj_enters.hh"
+#include "cj_enters.hpp"
 
 #pragma mark - Public API
 #pragma mark - Constructors
