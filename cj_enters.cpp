@@ -1,42 +1,37 @@
 #include "cj_enters.hpp"
-
-#pragma mark - Public API
-#pragma mark - Constructors
 cj_enters::cj_enters() : _first(NULL), _last(NULL), _count(0) { }
 cj_enters::cj_enters(const cj_enters &cj) : _first(NULL), _last(NULL), _count(0) {
-    _first = _copy(cj._first);
+    _copy(cj._first);
 }
 
 cj_enters::~cj_enters() {
-    _delete(_first);
+    _delete();
 }
 
-#pragma mark - Modifiers
 void cj_enters::insereix(int e) {
     if (conte(e)) return;
-    
     if (_count == 0) _add_front(e);
     else {
-        node *new_node = new node;
-        new_node->value = e;
-        
         node *aux = _first;
         bool inserted = false;
         while (aux->next != NULL && !inserted) {
             if (e > aux->value && e < aux->next->value) {
-                _add(aux, new_node);
-                inserted = true;
+              node *new_node = new node();
+              new_node->value = e;
+              _add(aux, new_node);
+              inserted = true;
             } else {
                 aux = aux->next;
             }
         }
-        
+
         if (!inserted) (e < aux->value) ? _add_front(e) : _add_back(e);
+
     }
     _count++;
 }
 
-void cj_enters::unir(const cj_enters &B) {
+ void cj_enters::unir(const cj_enters &B) {
     if (B.card() == 0) return;
     node *aux = B._first;
     while (aux != NULL) {
@@ -49,21 +44,26 @@ void cj_enters::intersectar(const cj_enters &B) {
     if (B.card() == 0) return;
     node *aux = _first;
     while (aux != NULL) {
-        if (!B.conte(aux->value)) _delete_node(aux->value);
-        aux = aux->next;
+        if (!B.conte(aux->value)) {
+          int val = aux->value;
+          aux = aux->next;
+          _delete_node(val);
+        } else aux = aux->next;
     }
 }
 
 void cj_enters::restar(const cj_enters &B) {
-    if (B.card() == 0) return;
-    node *aux = B._first;
-    while (aux != NULL) {
-        if (conte(aux->value)) _delete_node(aux->value);
+  if (B.card() == 0) return;
+  node *aux = _first;
+  while (aux != NULL) {
+      if (B.conte(aux->value)) {
+        int val = aux->value;
         aux = aux->next;
-    }
+        _delete_node(val);
+      } else aux = aux->next;
+  }
 }
 
-#pragma mark - Operators
 cj_enters cj_enters::operator+(const cj_enters &B) const {
     cj_enters cj = cj_enters(*this);
     cj.unir(B);
@@ -84,7 +84,7 @@ cj_enters cj_enters::operator*(const cj_enters &B) const {
 
 bool cj_enters::operator==(const cj_enters &B) const {
     if (_count != B._count) return false;
-    
+
     node *aNode = _first, *bNode = B._first;
     bool equals = true;
     while (aNode != NULL && equals) {
@@ -94,7 +94,7 @@ bool cj_enters::operator==(const cj_enters &B) const {
             bNode = bNode->next;
         }
     }
-    
+
     return equals;
 }
 
@@ -104,41 +104,36 @@ bool cj_enters::operator!=(const cj_enters &B) const {
 
 cj_enters& cj_enters::operator=(const cj_enters &cj) {
     if (*this != cj) {
-        _delete(_first);
-        _first = _copy(cj._first);
+        _delete();
+        _copy(cj._first);
     }
-    
+
     return *this;
 }
 
-#pragma mark - Consultors
-
 bool cj_enters::conte(int e) const {
     if (_count == 0) return false;
-    
+
     node *aux = _first;
     bool finded = false;
     while (aux != NULL && !finded) {
-        if (aux->value == e) finded = true;
-        aux = aux->next;
+      if (aux->value == e) finded = true;
+      aux = aux->next;
     }
-    
     return finded;
 }
 
 int cj_enters::min() const {
-    return (_count == 0) ? NULL :  _first->value;
+    return (_count == 0) ? ((unsigned int)~0>>1) :  _first->value;
 }
 
 int cj_enters::max() const {
-    return (_count == 0) ? NULL :  _last->value;
+    return (_count == 0) ? ((unsigned int)~0>>1) :  _last->value;
 }
 
 int cj_enters::card() const {
     return _count;
 }
-
-#pragma mark - Print
 
 void cj_enters::print(ostream &os) const {
     node *aux = _first;
@@ -159,25 +154,21 @@ void cj_enters::print_reversed(ostream &os) const {
     os<<"]"<<endl;
 }
 
-#pragma mark - Private API
-#pragma mark - Adders
-
 void cj_enters::_add_front(int e) {
-    node *new_node = new node;
+    node *new_node = new node();
     new_node->value = e;
     if (_first != NULL) {
-        new_node->next = _first;
         _first->prev = new_node;
+        new_node->next = _first;
         _first = new_node;
-        new_node->prev = NULL;
     } else {
         _first = new_node;
-        _last = _first;
+        _last = new_node;
     }
 }
 
 void cj_enters::_add_back(int e) {
-    node *new_node = new node;
+    node *new_node = new node();
     new_node->value = e;
     new_node->prev = _last;
     _last->next = new_node;
@@ -191,67 +182,49 @@ void cj_enters::_add(cj_enters::node *prev, node *new_node) {
     prev->next = new_node;
 }
 
-#pragma mark - Deleters
-
-void cj_enters::_delete(node *n) {
-    while (n != NULL) {
-        node *aux = n->next;
-        n = NULL;
-        delete n;
-        n = aux;
+void cj_enters::_delete() {
+  node *aux = _first;
+    while (aux != NULL) {
+        _first = _first->next;
+        delete aux;
+        aux = _first;
     }
-    _first = NULL;
-    _last = NULL;
+    _first = _last = NULL;
     _count = 0;
 }
 
 void cj_enters::_delete_node(int e) {
+    node *tmp;
     if (_first->value == e) {
-        _first = _first->next;
-        _first->prev = NULL;
-        delete _first->prev;
-    } else if (_last->value == e) {
-        _last = _last->prev;
-        _last->next = NULL;
-        delete _last->next;
+      tmp = _first;
+      _first = _first->next;
+      _first->prev = NULL;
+      delete tmp;
+    } else if(_last->value == e) {
+      tmp = _last;
+      _last = _last->prev;
+      _last->next = NULL;
+      delete tmp;
     } else {
-        node *aux = _first->next;
-        bool deleted = false;
-        while (aux != NULL && !deleted) {
-            if (aux->value == e) {
-                aux->prev->next = aux->next;
-                aux->next->prev = aux->prev;
-                deleted = true;
-                delete aux;
-            } else {
-                aux = aux->next;
-            }
-        }
+      tmp = _first->next;
+      bool deleted = false;
+      while (!deleted && tmp->next != NULL) {
+         if (tmp->value == e) {
+           tmp->prev->next = tmp->next;
+           tmp->next->prev = tmp->prev;
+           delete tmp;
+           deleted = true;
+         } else tmp = tmp->next;
+      }
     }
     --_count;
 }
 
-#pragma mark - Copiers
-cj_enters::node* cj_enters::_copy(const node *first) {
-    if (first == NULL) return NULL;
-    
-    node *aux = new node;
-    aux->value = first->value;
-    _copy_node(first, aux);
-    return aux;
-}
+void cj_enters::_copy(const node *first) {
+    if (first == NULL) return;
 
-void cj_enters::_copy_node(const node *a, node *b) {
-    if (a == NULL || b == NULL) {
-        return;
+    while (first != NULL) {
+      insereix(first->value);
+      first = first->next;
     }
-    ++_count;
-    if (b->next == NULL) _last = b;
-    
-    b->next = a->next;
-    b->prev = a->prev;
-    _copy_node(a->next, b->next);
 }
-
-
-

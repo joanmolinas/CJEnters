@@ -1,4 +1,4 @@
-/*driver_cj_enters (basat en GenDriver) 
+/*driver_cj_enters (basat en GenDriver)
   Modificacio amd data: 24-9-2015
 */
 
@@ -32,7 +32,7 @@ void* user_init(gen_driver &dr){
   string id= dr.args(1);
   string tid= dr.args(2);
 
-  if (tid == "cj_enters") { 
+  if (tid == "cj_enters") {
     if (dr.nargs() != 2)
       throw error(gen_driver::WrongNumArgs,gen_driver::nom_mod,gen_driver::WrongNumArgsMsg);
     return static_cast<void*>(new cj_enters);
@@ -40,51 +40,51 @@ void* user_init(gen_driver &dr){
   throw error(gen_driver::WrongTypeArgs,gen_driver::nom_mod,gen_driver::WrongTypeArgsMsg);
 }
 
-// TypeTraits 
+// TypeTraits
 
 template <>
 const char* TypeTraits<cj_enters>::name = "cj_enters";
 
-// Metodes de cj_enters 
+// Metodes de cj_enters
 
 void insereix(gen_driver& dr){
   if(dr.object_type()!= "cj_enters")
     throw error(gen_driver::WrongTypeArgs,gen_driver::nom_mod,gen_driver::WrongTypeArgsMsg);
-    
+
   int c = util::toint(dr.args(1));
-  dr.object<cj_enters>()->insereix(c); 
-}    
+  dr.object<cj_enters>()->insereix(c);
+}
 
 
 void unir(gen_driver& dr){
   if(dr.object_type()!= "cj_enters" or dr.object_type(1) != "cj_enters")
     throw error(gen_driver::WrongTypeArgs,gen_driver::nom_mod,gen_driver::WrongTypeArgsMsg);
-    
+
   dr.object<cj_enters>()->unir(*dr.object<cj_enters>(1));
   dr.get_ostream() << *(dr.object<cj_enters>()) << endl;
-}    
+}
 
 
 void intersectar(gen_driver& dr){
   if(dr.object_type()!= "cj_enters" or dr.object_type(1) != "cj_enters")
     throw error(gen_driver::WrongTypeArgs,gen_driver::nom_mod,gen_driver::WrongTypeArgsMsg);
-    
-  dr.object<cj_enters>()->intersectar(*dr.object<cj_enters>(1)); 
+
+  dr.object<cj_enters>()->intersectar(*dr.object<cj_enters>(1));
   dr.get_ostream() << *(dr.object<cj_enters>()) << endl;
-} 
+}
 
 void restar(gen_driver& dr){
   if(dr.object_type()!= "cj_enters" or dr.object_type(1) != "cj_enters")
     throw error(gen_driver::WrongTypeArgs,gen_driver::nom_mod,gen_driver::WrongTypeArgsMsg);
-    
+
   dr.object<cj_enters>()->restar(*dr.object<cj_enters>(1));
   dr.get_ostream() << *(dr.object<cj_enters>()) << endl;
-} 
+}
 
 void conte(gen_driver& dr){
   if(dr.object_type()!= "cj_enters")
     throw error(gen_driver::WrongTypeArgs,gen_driver::nom_mod,gen_driver::WrongTypeArgsMsg);
-   
+
   int c = util::toint(dr.args(1));
   (dr.get_ostream() <= dr.object<cj_enters>()->conte(c))<< endl;
 }
@@ -92,58 +92,58 @@ void conte(gen_driver& dr){
 void max(gen_driver& dr){
   if(dr.object_type()!= "cj_enters")
     throw error(gen_driver::WrongTypeArgs,gen_driver::nom_mod,gen_driver::WrongTypeArgsMsg);
-   
+
   dr.get_ostream() << dr.object<cj_enters>()->max() << endl;
-}    
+}
 
 void min(gen_driver& dr){
   if(dr.object_type()!= "cj_enters")
     throw error(gen_driver::WrongTypeArgs,gen_driver::nom_mod,gen_driver::WrongTypeArgsMsg);
-  
+
   dr.get_ostream() << dr.object<cj_enters>()->min() << endl;
-}    
+}
 
 void card(gen_driver& dr){
   if(dr.object_type()!= "cj_enters")
     throw error(gen_driver::WrongTypeArgs,gen_driver::nom_mod,gen_driver::WrongTypeArgsMsg);
-  
+
   dr.get_ostream() << dr.object<cj_enters>()->card() << endl;
-}  
+}
 
 void iguals(gen_driver &dr){
   if(dr.object_type() != "cj_enters" or dr.object_type(1) != "cj_enters")
     throw error(gen_driver::WrongTypeArgs,gen_driver::nom_mod,gen_driver::WrongTypeArgsMsg);
-  
-  dr.get_ostream() <= dr.object<cj_enters>()->operator==(*dr.object<cj_enters>(1)); 
+
+  dr.get_ostream() <= dr.object<cj_enters>()->operator==(*dr.object<cj_enters>(1));
   dr.get_ostream() << endl;
 }
 
 void diferents(gen_driver &dr){
   if(dr.object_type() != "cj_enters" or dr.object_type(1) != "cj_enters")
     throw error(gen_driver::WrongTypeArgs,gen_driver::nom_mod,gen_driver::WrongTypeArgsMsg);
-  
-  dr.get_ostream() <= dr.object<cj_enters>()->operator!=(*dr.object<cj_enters>(1)); 
+
+  dr.get_ostream() <= dr.object<cj_enters>()->operator!=(*dr.object<cj_enters>(1));
   dr.get_ostream() << endl;
 }
 
 void suma(gen_driver &dr){
   if(dr.object_type() != "cj_enters" or dr.object_type(1) != "cj_enters")
     throw error(gen_driver::WrongTypeArgs,gen_driver::nom_mod,gen_driver::WrongTypeArgsMsg);
-  
+
   dr.get_ostream() << dr.object<cj_enters>()->operator+(*dr.object<cj_enters>(1)) << endl;
 }
 
 void producte(gen_driver &dr){
   if(dr.object_type() != "cj_enters" or dr.object_type(1) != "cj_enters")
     throw error(gen_driver::WrongTypeArgs,gen_driver::nom_mod,gen_driver::WrongTypeArgsMsg);
-  
+
   dr.get_ostream() << dr.object<cj_enters>()->operator*(*dr.object<cj_enters>(1)) << endl;
 }
 
 void resta(gen_driver &dr){
   if(dr.object_type() != "cj_enters" or dr.object_type(1) != "cj_enters")
     throw error(gen_driver::WrongTypeArgs,gen_driver::nom_mod,gen_driver::WrongTypeArgsMsg);
-  
+
   dr.get_ostream() << dr.object<cj_enters>()->operator-(*dr.object<cj_enters>(1)) << endl;
 }
 
@@ -158,12 +158,12 @@ int main() {
   d.add_call("unir", unir, "cj_enters", "cj_enters");
   d.add_call("intersectar", intersectar, "cj_enters", "cj_enters");
   d.add_call("restar", restar, "cj_enters", "cj_enters");
-  
+
   d.add_call("conte", conte, "cj_enters", "int");
   d.add_call("min", min, "cj_enters");
   d.add_call("max", max, "cj_enters");
   d.add_call("card", card, "cj_enters");
-  
+
   d.add_call("==", iguals, "cj_enters", "cj_enters");
   d.add_call("!=", diferents, "cj_enters", "cj_enters");
 
@@ -173,6 +173,5 @@ int main() {
 
   d.install_type<cj_enters>("cj_enters");
 
-  d.go(); 
-} 
-
+  d.go();
+}
