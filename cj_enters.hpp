@@ -36,9 +36,6 @@ public:
 
     void print(ostream& os) const;
 
-    //Borrar
-    void print_reversed(ostream& os)const;
-
 private:
     struct node {
         node *next, *prev;
@@ -48,28 +45,29 @@ private:
     node *_first, *_last;
     int _count;
 
-    //PRE:
-    //POST:
-    void _copy(const node *first);
+    //PRE: Cert
+    //POST: Crea un conjunt a partir del primer node
+    void _copy(node *first);
 
-    //PRE:
-    //POST:
+    //PRE: Cert
+    //POST: Borra i allibera la memòria de tots els nodes del conjunt
     void _delete();
 
-    //PRE:
-    //POST:
+    //PRE: El node amb el valor e no pot ser NULL
+    //POST: Borra el node amb el valor e, allibera la memòria i torna a lincar
+    //el node anterior amb el següent.
     void _delete_node(int e);
 
-    //PRE:
-    //POST:
+    //PRE: El valor e no ha d'estar en el conjunt.
+    //POST: Crea i afegeix un node nou i l'afegeix d'avant del conjunt.
     void _add_front(int e);
 
-    //PRE:
-    //POST:
+    //PRE: El valor e no ha d'estar en el conjunt.
+    //POST: Crea i afegeix un node nou i l'afegeix al final del conjunt.
     void _add_back(int e);
 
-    //PRE:
-    //POST:
+    //PRE: Prev no ha de ser null i new_node tampoc
+    //POST: Crea i afegeix entre la posició 2 i la n-1 del conjunt 
     void _add(node *prev, node *new_node);
 };
 

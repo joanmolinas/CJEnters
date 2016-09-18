@@ -16,10 +16,10 @@ void cj_enters::insereix(int e) {
         bool inserted = false;
         while (aux->next != NULL && !inserted) {
             if (e > aux->value && e < aux->next->value) {
-              node *new_node = new node();
-              new_node->value = e;
-              _add(aux, new_node);
-              inserted = true;
+                node *new_node = new node();
+                new_node->value = e;
+                _add(aux, new_node);
+                inserted = true;
             } else {
                 aux = aux->next;
             }
@@ -31,7 +31,7 @@ void cj_enters::insereix(int e) {
     _count++;
 }
 
- void cj_enters::unir(const cj_enters &B) {
+void cj_enters::unir(const cj_enters &B) {
     if (B.card() == 0) return;
     node *aux = B._first;
     while (aux != NULL) {
@@ -45,23 +45,23 @@ void cj_enters::intersectar(const cj_enters &B) {
     node *aux = _first;
     while (aux != NULL) {
         if (!B.conte(aux->value)) {
-          int val = aux->value;
-          aux = aux->next;
-          _delete_node(val);
+            int val = aux->value;
+            aux = aux->next;
+            _delete_node(val);
         } else aux = aux->next;
     }
 }
 
 void cj_enters::restar(const cj_enters &B) {
-  if (B.card() == 0) return;
-  node *aux = _first;
-  while (aux != NULL) {
-      if (B.conte(aux->value)) {
-        int val = aux->value;
-        aux = aux->next;
-        _delete_node(val);
-      } else aux = aux->next;
-  }
+    if (B.card() == 0) return;
+    node *aux = _first;
+    while (aux != NULL) {
+        if (B.conte(aux->value)) {
+            int val = aux->value;
+            aux = aux->next;
+            _delete_node(val);
+        } else aux = aux->next;
+    }
 }
 
 cj_enters cj_enters::operator+(const cj_enters &B) const {
@@ -117,8 +117,8 @@ bool cj_enters::conte(int e) const {
     node *aux = _first;
     bool finded = false;
     while (aux != NULL && !finded) {
-      if (aux->value == e) finded = true;
-      aux = aux->next;
+        if (aux->value == e) finded = true;
+        aux = aux->next;
     }
     return finded;
 }
@@ -141,15 +141,6 @@ void cj_enters::print(ostream &os) const {
     while (aux != NULL) {
         os<<aux->value<<" ";
         aux = aux->next;
-    }
-    os<<"]"<<endl;
-}
-void cj_enters::print_reversed(ostream &os) const {
-    node *aux = _last;
-    os<<"[ ";
-    while (aux != NULL) {
-        os<<aux->value<<" ";
-        aux = aux->prev;
     }
     os<<"]"<<endl;
 }
@@ -183,7 +174,7 @@ void cj_enters::_add(cj_enters::node *prev, node *new_node) {
 }
 
 void cj_enters::_delete() {
-  node *aux = _first;
+    node *aux = _first;
     while (aux != NULL) {
         _first = _first->next;
         delete aux;
@@ -196,35 +187,35 @@ void cj_enters::_delete() {
 void cj_enters::_delete_node(int e) {
     node *tmp;
     if (_first->value == e) {
-      tmp = _first;
-      _first = _first->next;
-      _first->prev = NULL;
-      delete tmp;
+        tmp = _first;
+        _first = _first->next;
+        if (_first != NULL) _first->prev = NULL;
+        delete tmp;
     } else if(_last->value == e) {
-      tmp = _last;
-      _last = _last->prev;
-      _last->next = NULL;
-      delete tmp;
+        tmp = _last;
+        _last = _last->prev;
+        _last->next = NULL;
+        delete tmp;
     } else {
-      tmp = _first->next;
-      bool deleted = false;
-      while (!deleted && tmp->next != NULL) {
-         if (tmp->value == e) {
-           tmp->prev->next = tmp->next;
-           tmp->next->prev = tmp->prev;
-           delete tmp;
-           deleted = true;
-         } else tmp = tmp->next;
-      }
+        tmp = _first->next;
+        bool deleted = false;
+        while (!deleted && tmp->next != NULL) {
+            if (tmp->value == e) {
+                tmp->prev->next = tmp->next;
+                tmp->next->prev = tmp->prev;
+                delete tmp;
+                deleted = true;
+            } else tmp = tmp->next;
+        }
     }
     --_count;
 }
 
-void cj_enters::_copy(const node *first) {
+void cj_enters::_copy(node *first) {
     if (first == NULL) return;
 
     while (first != NULL) {
-      insereix(first->value);
-      first = first->next;
+        insereix(first->value);
+        first = first->next;
     }
 }
