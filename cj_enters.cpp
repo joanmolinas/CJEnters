@@ -137,10 +137,11 @@ int cj_enters::card() const {
 
 void cj_enters::print(ostream &os) const {
     node *aux = _first;
-    os<<"[ ";
+    os<<"[";
     while (aux != NULL) {
-        os<<aux->value<<" ";
-        aux = aux->next;
+      os<<aux->value;
+      if (aux->next != NULL) cout<<" ";
+      aux = aux->next;
     }
     os<<"]"<<endl;
 }

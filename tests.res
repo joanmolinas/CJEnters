@@ -67,13 +67,13 @@ false
 true
 ##true
 #max
-Error::gen_driver:1:Operacion incorrecta
+1
 ##1
 #min
-Error::gen_driver:1:Operacion incorrecta
+1
 ##1
 #card
-Error::gen_driver:1:Operacion incorrecta
+1
 ##1
 ###! inserim un element ja present
 #insereix 1
@@ -91,13 +91,13 @@ false
 true
 ##true
 #max
-Error::gen_driver:1:Operacion incorrecta
+1
 ##1
 #min
-Error::gen_driver:1:Operacion incorrecta
+1
 ##1
 #card
-Error::gen_driver:1:Operacion incorrecta
+1
 ##1
 ###!
 ###!
@@ -121,13 +121,13 @@ false
 false
 ##false
 #max 
-Error::gen_driver:1:Operacion incorrecta
+-1
 ##-1
 #min
-Error::gen_driver:1:Operacion incorrecta
+-1
 ##-1
 #card
-Error::gen_driver:1:Operacion incorrecta
+1
 ##1
 ###! inserim un element ja present
 #insereix -1
@@ -145,13 +145,13 @@ false
 false
 ##false
 #max 
-Error::gen_driver:1:Operacion incorrecta
+-1
 ##-1
 #min
-Error::gen_driver:1:Operacion incorrecta
+-1
 ##-1
 #card
-Error::gen_driver:1:Operacion incorrecta
+1
 ##1
 ###!
 ###!
@@ -181,13 +181,13 @@ false
 true
 ##true
 #max
-Error::gen_driver:1:Operacion incorrecta
+-1
 ##-1
 #min
-Error::gen_driver:1:Operacion incorrecta
+-12
 ##-12
 #card
-Error::gen_driver:1:Operacion incorrecta
+2
 ##2
 ###! inserim un element ja present
 #insereix -12
@@ -196,7 +196,7 @@ Error::gen_driver:1:Operacion incorrecta
 true
 ##true
 #card
-Error::gen_driver:1:Operacion incorrecta
+2
 ##2
 ###!
 ###!
@@ -221,13 +221,13 @@ false
 true
 ##true
 #max
-Error::gen_driver:1:Operacion incorrecta
+21
 ##21
 #min
-Error::gen_driver:1:Operacion incorrecta
+12
 ##12
 #card
-Error::gen_driver:1:Operacion incorrecta
+2
 ##2
 ###! inserim un element ja present
 #insereix 21
@@ -236,7 +236,7 @@ Error::gen_driver:1:Operacion incorrecta
 true
 ##true
 #card
-Error::gen_driver:1:Operacion incorrecta
+2
 ##2
 ###!
 ###!
@@ -267,13 +267,13 @@ true
 true
 ##true
 #max
-Error::gen_driver:1:Operacion incorrecta
+21
 ##21
 #min
-Error::gen_driver:1:Operacion incorrecta
+1
 ##1
 #card
-Error::gen_driver:1:Operacion incorrecta
+3
 ##3
 ###! inserim un element ja present
 #insereix 1
@@ -282,7 +282,7 @@ Error::gen_driver:1:Operacion incorrecta
 true
 ##true
 #card
-Error::gen_driver:1:Operacion incorrecta
+3
 ##3
 ###!
 ###!
@@ -308,13 +308,13 @@ true
 true
 ##true
 #max
-Error::gen_driver:1:Operacion incorrecta
+21
 ##21
 #min
-Error::gen_driver:1:Operacion incorrecta
+12
 ##12
 #card
-Error::gen_driver:1:Operacion incorrecta
+3
 ##3
 ###! inserim un element ja present
 #insereix 17
@@ -323,7 +323,7 @@ Error::gen_driver:1:Operacion incorrecta
 true
 ##true
 #card
-Error::gen_driver:1:Operacion incorrecta
+3
 ##3
 ###!
 ###!
@@ -349,13 +349,13 @@ false
 true
 ##true
 #max
-Error::gen_driver:1:Operacion incorrecta
+121
 ##121
 #min
-Error::gen_driver:1:Operacion incorrecta
+12
 ##12
 #card
-Error::gen_driver:1:Operacion incorrecta
+3
 ##3
 ###! inserim un element ja present
 #insereix 121
@@ -364,7 +364,7 @@ Error::gen_driver:1:Operacion incorrecta
 true
 ##true
 #card
-Error::gen_driver:1:Operacion incorrecta
+3
 ##3
 ###!
 ###!
@@ -403,13 +403,13 @@ true
 true
 ##true
 #max
-Error::gen_driver:1:Operacion incorrecta
+121
 ##121
 #min
-Error::gen_driver:1:Operacion incorrecta
+-8
 ##-8
 #card
-Error::gen_driver:1:Operacion incorrecta
+5
 ##5
 ###!
 ###!
@@ -433,7 +433,8 @@ Error::gen_driver:1:Operacion incorrecta
 #init b cj_enters
 ###!
 #b unir a
-Error::gen_driver:1:Operacion incorrecta
+[]
+
 ##[]
 #b conte 0
 false
@@ -445,7 +446,7 @@ false
 false
 ##false
 #b card
-Error::gen_driver:1:Operacion incorrecta
+0
 ##0
 ###!
 ###!------------------------------
@@ -461,16 +462,17 @@ Error::gen_driver:1:Operacion incorrecta
 #b insereix 12
 ###!
 #b unir a
-Error::gen_driver:1:Operacion incorrecta
+[12]
+
 ##[12]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+12
 ##12
 #b min
-Error::gen_driver:1:Operacion incorrecta
+12
 ##12
 #b card
-Error::gen_driver:1:Operacion incorrecta
+1
 ##1
 ###!
 ###!------------------------------
@@ -488,16 +490,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 13
 ###!
 #b unir a
-Error::gen_driver:1:Operacion incorrecta
+[12 13]
+
 ##[12 13]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+13
 ##13
 #b min
-Error::gen_driver:1:Operacion incorrecta
+12
 ##12
 #b card
-Error::gen_driver:1:Operacion incorrecta
+2
 ##2
 ###!
 ###!
@@ -519,16 +522,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix -13
 ###!
 #b unir a
-Error::gen_driver:1:Operacion incorrecta
+[-13 12 13]
+
 ##[-13 12 13]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+13
 ##13
 #b min
-Error::gen_driver:1:Operacion incorrecta
+-13
 ##-13
 #b card
-Error::gen_driver:1:Operacion incorrecta
+3
 ##3
 ###!
 ###!------------------------------
@@ -553,16 +557,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 43
 ###!
 #b unir a
-Error::gen_driver:1:Operacion incorrecta
+[-13 12 13 43 60]
+
 ##[-13 12 13 43 60]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+60
 ##60
 #b min
-Error::gen_driver:1:Operacion incorrecta
+-13
 ##-13
 #b card
-Error::gen_driver:1:Operacion incorrecta
+5
 ##5
 ###!
 ###!
@@ -583,16 +588,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 15
 ###!
 #b unir a
-Error::gen_driver:1:Operacion incorrecta
+[12 15]
+
 ##[12 15]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+15
 ##15
 #b min
-Error::gen_driver:1:Operacion incorrecta
+12
 ##12
 #b card
-Error::gen_driver:1:Operacion incorrecta
+2
 ##2
 ###!
 ###!------------------------------
@@ -610,16 +616,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 19
 ###!
 #b unir a
-Error::gen_driver:1:Operacion incorrecta
+[12 15 19]
+
 ##[12 15 19]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+19
 ##19
 #b min
-Error::gen_driver:1:Operacion incorrecta
+12
 ##12
 #b card
-Error::gen_driver:1:Operacion incorrecta
+3
 ##3
 ###!
 ###!------------------------------
@@ -639,16 +646,17 @@ Error::gen_driver:1:Operacion incorrecta
 #b insereix 56
 ###!
 #b unir a
-Error::gen_driver:1:Operacion incorrecta
+[-13 12 15 19 56]
+
 ##[-13 12 15 19 56]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+56
 ##56
 #b min
-Error::gen_driver:1:Operacion incorrecta
+-13
 ##-13
 #b card
-Error::gen_driver:1:Operacion incorrecta
+5
 ##5
 ###!
 ###!------------------------------
@@ -673,16 +681,17 @@ Error::gen_driver:1:Operacion incorrecta
 #b insereix 45
 ###!
 #b unir a
-Error::gen_driver:1:Operacion incorrecta
+[-13 12 15 19 34 43 45 56 60 98]
+
 ##[-13 12 15 19 34 43 45 56 60 98]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+98
 ##98
 #b min
-Error::gen_driver:1:Operacion incorrecta
+-13
 ##-13
 #b card
-Error::gen_driver:1:Operacion incorrecta
+10
 ##10
 ###!
 ###!
@@ -705,16 +714,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 11
 ###!
 #b unir a
-Error::gen_driver:1:Operacion incorrecta
+[11]
+
 ##[11]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+11
 ##11
 #b min
-Error::gen_driver:1:Operacion incorrecta
+11
 ##11
 #b card
-Error::gen_driver:1:Operacion incorrecta
+1
 ##1
 ###!
 ###!------------------------------
@@ -730,16 +740,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 4
 ###!
 #b unir a
-Error::gen_driver:1:Operacion incorrecta
+[4 11]
+
 ##[4 11]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+11
 ##11
 #b min
-Error::gen_driver:1:Operacion incorrecta
+4
 ##4
 #b card
-Error::gen_driver:1:Operacion incorrecta
+2
 ##2
 ###!
 ###!------------------------------
@@ -756,16 +767,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 18
 ###!
 #b unir a
-Error::gen_driver:1:Operacion incorrecta
+[11 18 26]
+
 ##[11 18 26]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+26
 ##26
 #b min
-Error::gen_driver:1:Operacion incorrecta
+11
 ##11
 #b card
-Error::gen_driver:1:Operacion incorrecta
+3
 ##3
 ###!
 ###!------------------------------
@@ -784,16 +796,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 7
 ###!
 #b unir a
-Error::gen_driver:1:Operacion incorrecta
+[-11 0 2 7 11]
+
 ##[-11 0 2 7 11]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+11
 ##11
 #b min
-Error::gen_driver:1:Operacion incorrecta
+-11
 ##-11
 #b card
-Error::gen_driver:1:Operacion incorrecta
+5
 ##5
 ###!
 ###!------------------------------
@@ -811,16 +824,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 4
 ###!
 #b unir a
-Error::gen_driver:1:Operacion incorrecta
+[4 11]
+
 ##[4 11]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+11
 ##11
 #b min
-Error::gen_driver:1:Operacion incorrecta
+4
 ##4
 #b card
-Error::gen_driver:1:Operacion incorrecta
+2
 ##2
 ###!
 ###!------------------------------
@@ -839,16 +853,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 87
 ###!
 #b unir a
-Error::gen_driver:1:Operacion incorrecta
+[11 12 44 87]
+
 ##[11 12 44 87]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+87
 ##87
 #b min
-Error::gen_driver:1:Operacion incorrecta
+11
 ##11
 #b card
-Error::gen_driver:1:Operacion incorrecta
+4
 ##4
 ###!
 ###!------------------------------
@@ -868,16 +883,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 87
 ###!
 #b unir a
-Error::gen_driver:1:Operacion incorrecta
+[1 4 11 44 87]
+
 ##[1 4 11 44 87]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+87
 ##87
 #b min
-Error::gen_driver:1:Operacion incorrecta
+1
 ##1
 #b card
-Error::gen_driver:1:Operacion incorrecta
+5
 ##5
 ###!
 ###!------------------------------
@@ -898,16 +914,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 87
 ###!
 #b unir a
-Error::gen_driver:1:Operacion incorrecta
+[11 12 44 87]
+
 ##[11 12 44 87]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+87
 ##87
 #b min
-Error::gen_driver:1:Operacion incorrecta
+11
 ##11
 #b card
-Error::gen_driver:1:Operacion incorrecta
+4
 ##4
 ###!
 ###!------------------------------
@@ -931,16 +948,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 87
 ###!
 #b unir a
-Error::gen_driver:1:Operacion incorrecta
+[11 12 44 54 87 111 657]
+
 ##[11 12 44 54 87 111 657]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+657
 ##657
 #b min
-Error::gen_driver:1:Operacion incorrecta
+11
 ##11
 #b card
-Error::gen_driver:1:Operacion incorrecta
+7
 ##7
 ###!
 ###!------------------------------
@@ -962,16 +980,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 87
 ###!
 #b unir a
-Error::gen_driver:1:Operacion incorrecta
+[11 14 30 44 87]
+
 ##[11 14 30 44 87]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+87
 ##87
 #b min
-Error::gen_driver:1:Operacion incorrecta
+11
 ##11
 #b card
-Error::gen_driver:1:Operacion incorrecta
+5
 ##5
 ###!
 ###!
@@ -994,16 +1013,17 @@ Error::gen_driver:1:Operacion incorrecta
 #init b cj_enters
 ###!
 #b unir a
-Error::gen_driver:1:Operacion incorrecta
+[11]
+
 ##[11]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+11
 ##11
 #b min
-Error::gen_driver:1:Operacion incorrecta
+11
 ##11
 #b card
-Error::gen_driver:1:Operacion incorrecta
+1
 ##1
 ###!
 ###!------------------------------
@@ -1019,16 +1039,17 @@ Error::gen_driver:1:Operacion incorrecta
 #init b cj_enters
 ###!
 #b unir a
-Error::gen_driver:1:Operacion incorrecta
+[4 11]
+
 ##[4 11]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+11
 ##11
 #b min
-Error::gen_driver:1:Operacion incorrecta
+4
 ##4
 #b card
-Error::gen_driver:1:Operacion incorrecta
+2
 ##2
 ###!
 ###!------------------------------
@@ -1046,16 +1067,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 4
 ###!
 #b unir a
-Error::gen_driver:1:Operacion incorrecta
+[4 11]
+
 ##[4 11]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+11
 ##11
 #b min
-Error::gen_driver:1:Operacion incorrecta
+4
 ##4
 #b card
-Error::gen_driver:1:Operacion incorrecta
+2
 ##2
 ###!
 ###!------------------------------
@@ -1073,16 +1095,17 @@ Error::gen_driver:1:Operacion incorrecta
 #init b cj_enters
 ###!
 #b unir a
-Error::gen_driver:1:Operacion incorrecta
+[11 44 87]
+
 ##[11 44 87]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+87
 ##87
 #b min
-Error::gen_driver:1:Operacion incorrecta
+11
 ##11
 #b card
-Error::gen_driver:1:Operacion incorrecta
+3
 ##3
 ###!
 ###!------------------------------
@@ -1101,16 +1124,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 12
 ###!
 #b unir a
-Error::gen_driver:1:Operacion incorrecta
+[11 12 44 87]
+
 ##[11 12 44 87]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+87
 ##87
 #b min
-Error::gen_driver:1:Operacion incorrecta
+11
 ##11
 #b card
-Error::gen_driver:1:Operacion incorrecta
+4
 ##4
 ###!
 ###!------------------------------
@@ -1131,16 +1155,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 87
 ###!
 #b unir a
-Error::gen_driver:1:Operacion incorrecta
+[11 12 44 87]
+
 ##[11 12 44 87]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+87
 ##87
 #b min
-Error::gen_driver:1:Operacion incorrecta
+11
 ##11
 #b card
-Error::gen_driver:1:Operacion incorrecta
+4
 ##4
 ###!
 ###!------------------------------
@@ -1159,16 +1184,17 @@ Error::gen_driver:1:Operacion incorrecta
 #init b cj_enters
 ###!
 #b unir a
-Error::gen_driver:1:Operacion incorrecta
+[1 4 11 44 87]
+
 ##[1 4 11 44 87]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+87
 ##87
 #b min
-Error::gen_driver:1:Operacion incorrecta
+1
 ##1
 #b card
-Error::gen_driver:1:Operacion incorrecta
+5
 ##5
 ###!
 ###!------------------------------
@@ -1188,16 +1214,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 4
 ###!
 #b unir a
-Error::gen_driver:1:Operacion incorrecta
+[1 4 11 44 87]
+
 ##[1 4 11 44 87]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+87
 ##87
 #b min
-Error::gen_driver:1:Operacion incorrecta
+1
 ##1
 #b card
-Error::gen_driver:1:Operacion incorrecta
+5
 ##5
 ###!
 ###!------------------------------
@@ -1223,16 +1250,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 12
 ###!
 #b unir a
-Error::gen_driver:1:Operacion incorrecta
+[11 12 44 54 87 111 657]
+
 ##[11 12 44 54 87 111 657]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+657
 ##657
 #b min
-Error::gen_driver:1:Operacion incorrecta
+11
 ##11
 #b card
-Error::gen_driver:1:Operacion incorrecta
+7
 ##7
 ###!
 ###!------------------------------
@@ -1256,16 +1284,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 87
 ###!
 #b unir a
-Error::gen_driver:1:Operacion incorrecta
+[11 14 30 44 87]
+
 ##[11 14 30 44 87]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+87
 ##87
 #b min
-Error::gen_driver:1:Operacion incorrecta
+11
 ##11
 #b card
-Error::gen_driver:1:Operacion incorrecta
+5
 ##5
 ###!
 ###!
@@ -1289,7 +1318,8 @@ Error::gen_driver:1:Operacion incorrecta
 #init b cj_enters
 ###!
 #b intersectar a
-Error::gen_driver:1:Operacion incorrecta
+[]
+
 ##[]
 #b conte 0
 false
@@ -1301,7 +1331,7 @@ false
 false
 ##false
 #b card
-Error::gen_driver:1:Operacion incorrecta
+0
 ##0
 ###!
 ###!------------------------------
@@ -1317,16 +1347,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 12
 ###!
 #b intersectar a
-Error::gen_driver:1:Operacion incorrecta
+[12]
+
 ##[12]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+12
 ##12
 #b min
-Error::gen_driver:1:Operacion incorrecta
+12
 ##12
 #b card
-Error::gen_driver:1:Operacion incorrecta
+1
 ##1
 ###!
 ###!------------------------------
@@ -1344,16 +1375,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 13
 ###!
 #b intersectar a
-Error::gen_driver:1:Operacion incorrecta
+[12 13]
+
 ##[12 13]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+13
 ##13
 #b min
-Error::gen_driver:1:Operacion incorrecta
+12
 ##12
 #b card
-Error::gen_driver:1:Operacion incorrecta
+2
 ##2
 ###!
 ###!
@@ -1375,16 +1407,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix -13
 ###!
 #b intersectar a
-Error::gen_driver:1:Operacion incorrecta
+[-13 12 13]
+
 ##[-13 12 13]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+13
 ##13
 #b min
-Error::gen_driver:1:Operacion incorrecta
+-13
 ##-13
 #b card
-Error::gen_driver:1:Operacion incorrecta
+3
 ##3
 ###!
 ###!------------------------------
@@ -1409,16 +1442,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 43
 ###!
 #b intersectar a
-Error::gen_driver:1:Operacion incorrecta
+[-13 12 13 43 60]
+
 ##[-13 12 13 43 60]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+60
 ##60
 #b min
-Error::gen_driver:1:Operacion incorrecta
+-13
 ##-13
 #b card
-Error::gen_driver:1:Operacion incorrecta
+5
 ##5
 ###!
 ###!
@@ -1439,10 +1473,11 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 15
 ###!
 #b intersectar a
-Error::gen_driver:1:Operacion incorrecta
+[]
+
 ##[]
 #b card
-Error::gen_driver:1:Operacion incorrecta
+0
 ##0
 ###!
 ###!------------------------------
@@ -1460,16 +1495,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 19
 ###!
 #b intersectar a
-Error::gen_driver:1:Operacion incorrecta
+[15]
+
 ##[15]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+15
 ##15
 #b min
-Error::gen_driver:1:Operacion incorrecta
+15
 ##15
 #b card
-Error::gen_driver:1:Operacion incorrecta
+1
 ##1
 ###!
 ###!------------------------------
@@ -1489,16 +1525,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 56
 ###!
 #b intersectar a
-Error::gen_driver:1:Operacion incorrecta
+[15]
+
 ##[15]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+15
 ##15
 #b min
-Error::gen_driver:1:Operacion incorrecta
+15
 ##15
 #b card
-Error::gen_driver:1:Operacion incorrecta
+1
 ##1
 ###!
 ###!------------------------------
@@ -1523,10 +1560,11 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 45
 ###!
 #b intersectar a
-Error::gen_driver:1:Operacion incorrecta
+[]
+
 ##[]
 #b card
-Error::gen_driver:1:Operacion incorrecta
+0
 ##0
 ###!
 ###!
@@ -1549,10 +1587,11 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 11
 ###!
 #b intersectar a
-Error::gen_driver:1:Operacion incorrecta
+[11]
+
 ##[]
 #b card
-Error::gen_driver:1:Operacion incorrecta
+1
 ##0
 ###!
 ###!------------------------------
@@ -1568,10 +1607,11 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 4
 ###!
 #b intersectar a
-Error::gen_driver:1:Operacion incorrecta
+[4 11]
+
 ##[]
 #b card
-Error::gen_driver:1:Operacion incorrecta
+2
 ##0
 ###!
 ###!------------------------------
@@ -1588,10 +1628,11 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 18
 ###!
 #b intersectar a
-Error::gen_driver:1:Operacion incorrecta
+[11 18 26]
+
 ##[]
 #b card
-Error::gen_driver:1:Operacion incorrecta
+3
 ##0
 ###!
 ###!------------------------------
@@ -1610,10 +1651,11 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 7
 ###!
 #b intersectar a
-Error::gen_driver:1:Operacion incorrecta
+[-11 0 2 7 11]
+
 ##[]
 #b card
-Error::gen_driver:1:Operacion incorrecta
+5
 ##0
 ###!
 ###!------------------------------
@@ -1631,16 +1673,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 4
 ###!
 #b intersectar a
-Error::gen_driver:1:Operacion incorrecta
+[4]
+
 ##[4]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+4
 ##4
 #b min
-Error::gen_driver:1:Operacion incorrecta
+4
 ##4
 #b card
-Error::gen_driver:1:Operacion incorrecta
+1
 ##1
 ###!
 ###!------------------------------
@@ -1659,16 +1702,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 87
 ###!
 #b intersectar a
-Error::gen_driver:1:Operacion incorrecta
+[44]
+
 ##[44]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+44
 ##44
 #b min
-Error::gen_driver:1:Operacion incorrecta
+44
 ##44
 #b card
-Error::gen_driver:1:Operacion incorrecta
+1
 ##1
 ###!
 ###!------------------------------
@@ -1688,16 +1732,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 87
 ###!
 #b intersectar a
-Error::gen_driver:1:Operacion incorrecta
+[4]
+
 ##[4]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+4
 ##4
 #b min
-Error::gen_driver:1:Operacion incorrecta
+4
 ##4
 #a card
-Error::gen_driver:1:Operacion incorrecta
+1
 ##1
 ###!
 ###!------------------------------
@@ -1718,16 +1763,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 87
 ###!
 #b intersectar a
-Error::gen_driver:1:Operacion incorrecta
+[87]
+
 ##[87]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+87
 ##87
 #b min
-Error::gen_driver:1:Operacion incorrecta
+87
 ##87
 #b card
-Error::gen_driver:1:Operacion incorrecta
+1
 ##1
 ###!
 ###!------------------------------
@@ -1751,16 +1797,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 657
 ###!
 #b intersectar a
-Error::gen_driver:1:Operacion incorrecta
+[12 54]
+
 ##[12 54]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+54
 ##54
 #b min
-Error::gen_driver:1:Operacion incorrecta
+12
 ##12
 #b card
-Error::gen_driver:1:Operacion incorrecta
+2
 ##2
 ###!
 ###!------------------------------
@@ -1782,16 +1829,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 87
 ###!
 #b intersectar a
-Error::gen_driver:1:Operacion incorrecta
+[11 44 87]
+
 ##[11 44 87]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+87
 ##87
 #b min
-Error::gen_driver:1:Operacion incorrecta
+11
 ##11
 #b card
-Error::gen_driver:1:Operacion incorrecta
+3
 ##3
 ###!
 ###!
@@ -1814,10 +1862,11 @@ Error::gen_driver:1:Operacion incorrecta
 #init b cj_enters
 ###!
 #b intersectar a
-Error::gen_driver:1:Operacion incorrecta
+[]
+
 ##[]
 #b card
-Error::gen_driver:1:Operacion incorrecta
+0
 ##0
 ###!
 ###!------------------------------
@@ -1833,10 +1882,11 @@ Error::gen_driver:1:Operacion incorrecta
 #init b cj_enters
 ###!
 #b intersectar a
-Error::gen_driver:1:Operacion incorrecta
+[]
+
 ##[]
 #b card
-Error::gen_driver:1:Operacion incorrecta
+0
 ##0
 ###!
 ###!------------------------------
@@ -1854,16 +1904,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 4
 ###!
 #b intersectar a
-Error::gen_driver:1:Operacion incorrecta
+[4]
+
 ##[4]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+4
 ##4
 #b min
-Error::gen_driver:1:Operacion incorrecta
+4
 ##4
 #b card
-Error::gen_driver:1:Operacion incorrecta
+1
 ##1
 ###!
 ###!------------------------------
@@ -1881,10 +1932,11 @@ Error::gen_driver:1:Operacion incorrecta
 #init b cj_enters
 ###!
 #b intersectar a
-Error::gen_driver:1:Operacion incorrecta
+[]
+
 ##[]
 #b card
-Error::gen_driver:1:Operacion incorrecta
+0
 ##0
 ###!
 ###!------------------------------
@@ -1903,10 +1955,11 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 12
 ###!
 #b intersectar a
-Error::gen_driver:1:Operacion incorrecta
+[]
+
 ##[]
 #b card
-Error::gen_driver:1:Operacion incorrecta
+0
 ##0
 ###!
 ###!------------------------------
@@ -1927,16 +1980,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 87
 ###!
 #b intersectar a
-Error::gen_driver:1:Operacion incorrecta
+[87]
+
 ##[87]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+87
 ##87
 #b min
-Error::gen_driver:1:Operacion incorrecta
+87
 ##87
 #b card
-Error::gen_driver:1:Operacion incorrecta
+1
 ##1
 ###!
 ###!------------------------------
@@ -1955,10 +2009,11 @@ Error::gen_driver:1:Operacion incorrecta
 #init b cj_enters
 ###!
 #b intersectar a
-Error::gen_driver:1:Operacion incorrecta
+[]
+
 ##[]
 #b card
-Error::gen_driver:1:Operacion incorrecta
+0
 ##0
 ###!
 ###!------------------------------
@@ -1978,16 +2033,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 4
 ###!
 #b intersectar a
-Error::gen_driver:1:Operacion incorrecta
+[4]
+
 ##[4]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+4
 ##4
 #b min
-Error::gen_driver:1:Operacion incorrecta
+4
 ##4
 #b card
-Error::gen_driver:1:Operacion incorrecta
+1
 ##1
 ###!
 ###!------------------------------
@@ -2011,10 +2067,11 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 12
 ###!
 #b intersectar a
-Error::gen_driver:1:Operacion incorrecta
+[]
+
 ##[]
 #b card
-Error::gen_driver:1:Operacion incorrecta
+0
 ##0
 ###!
 ###!------------------------------
@@ -2038,16 +2095,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 87
 ###!
 #b intersectar a
-Error::gen_driver:1:Operacion incorrecta
+[11 44 87]
+
 ##[11 44 87]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+87
 ##87
 #b min
-Error::gen_driver:1:Operacion incorrecta
+11
 ##11
 #b card
-Error::gen_driver:1:Operacion incorrecta
+3
 ##3
 ###!
 ###!
@@ -2071,7 +2129,8 @@ Error::gen_driver:1:Operacion incorrecta
 #init b cj_enters
 ###!
 #b restar a
-Error::gen_driver:1:Operacion incorrecta
+[]
+
 ##[]
 #a conte 0
 false
@@ -2083,7 +2142,7 @@ false
 false
 ##false
 #b card
-Error::gen_driver:1:Operacion incorrecta
+0
 ##0
 ###!
 ###!------------------------------
@@ -2099,10 +2158,11 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 12
 ###!
 #b restar a
-Error::gen_driver:1:Operacion incorrecta
+[]
+
 ##[]
 #b card
-Error::gen_driver:1:Operacion incorrecta
+0
 ##0
 ###!
 ###!------------------------------
@@ -2120,10 +2180,11 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 13
 ###!
 #b restar a
-Error::gen_driver:1:Operacion incorrecta
+[]
+
 ##[]
 #b card
-Error::gen_driver:1:Operacion incorrecta
+0
 ##0
 ###!
 ###!
@@ -2145,10 +2206,11 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix -13
 ###!
 #b restar a
-Error::gen_driver:1:Operacion incorrecta
+[]
+
 ##[]
 #b card
-Error::gen_driver:1:Operacion incorrecta
+0
 ##0
 ###!
 ###!------------------------------
@@ -2173,10 +2235,11 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 43
 ###!
 #b restar a
-Error::gen_driver:1:Operacion incorrecta
+[]
+
 ##[]
 #b card
-Error::gen_driver:1:Operacion incorrecta
+0
 ##0
 ###!
 ###!
@@ -2197,16 +2260,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 12
 ###!
 #b restar a
-Error::gen_driver:1:Operacion incorrecta
+[12]
+
 ##[12]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+12
 ##12
 #b min
-Error::gen_driver:1:Operacion incorrecta
+12
 ##12
 #b card
-Error::gen_driver:1:Operacion incorrecta
+1
 ##1
 ###!
 ###!------------------------------
@@ -2224,16 +2288,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 12
 ###!
 #b restar a
-Error::gen_driver:1:Operacion incorrecta
+[12]
+
 ##[12]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+12
 ##12
 #b min
-Error::gen_driver:1:Operacion incorrecta
+12
 ##12
 #b card
-Error::gen_driver:1:Operacion incorrecta
+1
 ##1
 ###!
 ###!------------------------------
@@ -2253,16 +2318,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 19
 ###!
 #restar a
-Error::gen_driver:1:Operacion incorrecta
+[12 14 19]
+
 ##[12 14 19]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+19
 ##19
 #b min
-Error::gen_driver:1:Operacion incorrecta
+12
 ##12
 #b card
-Error::gen_driver:1:Operacion incorrecta
+3
 ##3
 ###!
 ###!------------------------------
@@ -2287,16 +2353,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 19
 ###!
 #b restar a
-Error::gen_driver:1:Operacion incorrecta
+[-13 12 15 19 56]
+
 ##[-13 12 15 19 56]
 #b max
-Error::gen_driver:1:Operacion incorrecta
+56
 ##56
 #b min
-Error::gen_driver:1:Operacion incorrecta
+-13
 ##-13
 #b card
-Error::gen_driver:1:Operacion incorrecta
+5
 ##5
 ###!
 ###!
@@ -2319,10 +2386,11 @@ Error::gen_driver:1:Operacion incorrecta
 #init a cj_enters
 ###!
 #restar b
-Error::gen_driver:1:Operacion incorrecta
+[]
+
 ##[]
 #a card
-Error::gen_driver:1:Operacion incorrecta
+0
 ##0
 ###!
 ###!------------------------------
@@ -2338,10 +2406,11 @@ Error::gen_driver:1:Operacion incorrecta
 #init a cj_enters
 ###!
 #restar b
-Error::gen_driver:1:Operacion incorrecta
+[]
+
 ##[]
 #a card
-Error::gen_driver:1:Operacion incorrecta
+0
 ##0
 ###!
 ###!------------------------------
@@ -2358,10 +2427,11 @@ Error::gen_driver:1:Operacion incorrecta
 #init a cj_enters
 ###!
 #restar b
-Error::gen_driver:1:Operacion incorrecta
+[]
+
 ##[]
 #a card
-Error::gen_driver:1:Operacion incorrecta
+0
 ##0
 ###!
 ###!------------------------------
@@ -2380,10 +2450,11 @@ Error::gen_driver:1:Operacion incorrecta
 #init a cj_enters
 ###!
 #restar b
-Error::gen_driver:1:Operacion incorrecta
+[]
+
 ##[]
 #a card
-Error::gen_driver:1:Operacion incorrecta
+0
 ##0
 ###!
 ###!------------------------------
@@ -2401,10 +2472,11 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 4
 ###!
 #restar b
-Error::gen_driver:1:Operacion incorrecta
+[]
+
 ##[]
 #a card
-Error::gen_driver:1:Operacion incorrecta
+0
 ##0
 ###!
 ###!------------------------------
@@ -2423,10 +2495,11 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 44
 ###!
 #restar b
-Error::gen_driver:1:Operacion incorrecta
+[]
+
 ##[]
 #a card
-Error::gen_driver:1:Operacion incorrecta
+0
 ##0
 ###!
 ###!------------------------------
@@ -2446,10 +2519,11 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 4
 ###!
 #restar b
-Error::gen_driver:1:Operacion incorrecta
+[]
+
 ##[]
 #a card
-Error::gen_driver:1:Operacion incorrecta
+0
 ##0
 ###!
 ###!------------------------------
@@ -2470,16 +2544,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 87
 ###!
 #restar b
-Error::gen_driver:1:Operacion incorrecta
+[12]
+
 ##[12]
 #a max
-Error::gen_driver:1:Operacion incorrecta
+12
 ##12
 #a min
-Error::gen_driver:1:Operacion incorrecta
+12
 ##12
 #a card
-Error::gen_driver:1:Operacion incorrecta
+1
 ##1
 ###!
 ###!------------------------------
@@ -2503,16 +2578,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 12
 ###!
 #restar b
-Error::gen_driver:1:Operacion incorrecta
+[12 54]
+
 ##[12 54]
 #a max
-Error::gen_driver:1:Operacion incorrecta
+54
 ##54
 #a min
-Error::gen_driver:1:Operacion incorrecta
+12
 ##12
 #a card
-Error::gen_driver:1:Operacion incorrecta
+2
 ##2
 ###!
 ###!------------------------------
@@ -2534,10 +2610,11 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 87
 ###!
 #restar b
-Error::gen_driver:1:Operacion incorrecta
+[]
+
 ##[]
 #a card
-Error::gen_driver:1:Operacion incorrecta
+0
 ##0
 ###!
 ###!
@@ -2560,16 +2637,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 11
 ###!
 #restar b
-Error::gen_driver:1:Operacion incorrecta
+[11]
+
 ##[11]
 #a max
-Error::gen_driver:1:Operacion incorrecta
+11
 ##11
 #a min
-Error::gen_driver:1:Operacion incorrecta
+11
 ##11
 #a card
-Error::gen_driver:1:Operacion incorrecta
+1
 ##1
 ###!
 ###!------------------------------
@@ -2585,16 +2663,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 4
 ###!
 #restar b
-Error::gen_driver:1:Operacion incorrecta
+[4 11]
+
 ##[4 11]
 #a max
-Error::gen_driver:1:Operacion incorrecta
+11
 ##11
 #a min
-Error::gen_driver:1:Operacion incorrecta
+4
 ##4
 #a card
-Error::gen_driver:1:Operacion incorrecta
+2
 ##2
 ###!
 ###!------------------------------
@@ -2612,16 +2691,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 4
 ###!
 #restar b
-Error::gen_driver:1:Operacion incorrecta
+[11]
+
 ##[11]
 #a max
-Error::gen_driver:1:Operacion incorrecta
+11
 ##11
 #a min
-Error::gen_driver:1:Operacion incorrecta
+11
 ##11
 #a card
-Error::gen_driver:1:Operacion incorrecta
+1
 ##1
 ###!
 ###!------------------------------
@@ -2639,16 +2719,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 87
 ###!
 #restar b
-Error::gen_driver:1:Operacion incorrecta
+[11 44 87]
+
 ##[11 44 87]
 #a max
-Error::gen_driver:1:Operacion incorrecta
+87
 ##87
 #a min
-Error::gen_driver:1:Operacion incorrecta
+11
 ##11
 #a card
-Error::gen_driver:1:Operacion incorrecta
+3
 ##3
 ###!
 ###!------------------------------
@@ -2667,16 +2748,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 87
 ###!
 #restar b
-Error::gen_driver:1:Operacion incorrecta
+[11 44 87]
+
 ##[11 44 87]
 #a max
-Error::gen_driver:1:Operacion incorrecta
+87
 ##87
 #a min
-Error::gen_driver:1:Operacion incorrecta
+11
 ##11
 #a card
-Error::gen_driver:1:Operacion incorrecta
+3
 ##3
 ###!
 ###!------------------------------
@@ -2697,16 +2779,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 87
 ###!
 #restar b
-Error::gen_driver:1:Operacion incorrecta
+[11 44]
+
 ##[11 44]
 #a max
-Error::gen_driver:1:Operacion incorrecta
+44
 ##44
 #a min
-Error::gen_driver:1:Operacion incorrecta
+11
 ##11
 #a card
-Error::gen_driver:1:Operacion incorrecta
+2
 ##2
 ###!
 ###!------------------------------
@@ -2725,16 +2808,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 87
 ###!
 #restar b
-Error::gen_driver:1:Operacion incorrecta
+[1 4 11 44 87]
+
 ##[1 4 11 44 87]
 #a max
-Error::gen_driver:1:Operacion incorrecta
+87
 ##87
 #a min
-Error::gen_driver:1:Operacion incorrecta
+1
 ##1
 #a card
-Error::gen_driver:1:Operacion incorrecta
+5
 ##5
 ###!
 ###!------------------------------
@@ -2754,16 +2838,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 87
 ###!
 #restar b
-Error::gen_driver:1:Operacion incorrecta
+[1 11 44 87]
+
 ##[1 11 44 87]
 #a max
-Error::gen_driver:1:Operacion incorrecta
+87
 ##87
 #a min
-Error::gen_driver:1:Operacion incorrecta
+1
 ##1
 #a card
-Error::gen_driver:1:Operacion incorrecta
+4
 ##4
 ###!
 ###!------------------------------
@@ -2789,16 +2874,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 87
 ###!
 #restar b
-Error::gen_driver:1:Operacion incorrecta
+[11 44 87 111 657]
+
 ##[11 44 87 111 657]
 #a max
-Error::gen_driver:1:Operacion incorrecta
+657
 ##657
 #a min
-Error::gen_driver:1:Operacion incorrecta
+11
 ##11
 #a card
-Error::gen_driver:1:Operacion incorrecta
+5
 ##5
 ###!
 ###!------------------------------
@@ -2822,16 +2908,17 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 87
 ###!
 #restar b
-Error::gen_driver:1:Operacion incorrecta
+[14 30]
+
 ##[14 30]
 #a max
-Error::gen_driver:1:Operacion incorrecta
+30
 ##30
 #a min
-Error::gen_driver:1:Operacion incorrecta
+14
 ##14
 #a card
-Error::gen_driver:1:Operacion incorrecta
+2
 ##2
 ###!
 ###!
@@ -2855,7 +2942,7 @@ Error::gen_driver:1:Operacion incorrecta
 #init b cj_enters
 ###!
 #b == a
-Error::gen_driver:1:Operacion incorrecta
+true
 ##true
 #a conte 0
 false
@@ -2867,7 +2954,7 @@ false
 false
 ##false
 #b card
-Error::gen_driver:1:Operacion incorrecta
+0
 ##0
 ###!
 ###!------------------------------
@@ -2883,10 +2970,10 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 12
 ###!
 #b == a
-Error::gen_driver:1:Operacion incorrecta
+true
 ##true
 #b card
-Error::gen_driver:1:Operacion incorrecta
+1
 ##1
 ###!
 ###!------------------------------
@@ -2904,10 +2991,10 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 13
 ###!
 #b == a
-Error::gen_driver:1:Operacion incorrecta
+true
 ##true
 #b card
-Error::gen_driver:1:Operacion incorrecta
+2
 ##2
 ###!
 ###!
@@ -2929,10 +3016,10 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix -13
 ###!
 #b == a
-Error::gen_driver:1:Operacion incorrecta
+true
 ##true
 #b card
-Error::gen_driver:1:Operacion incorrecta
+3
 ##3
 ###!
 ###!------------------------------
@@ -2957,10 +3044,10 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 43
 ###!
 #b == a
-Error::gen_driver:1:Operacion incorrecta
+true
 ##true
 #b card
-Error::gen_driver:1:Operacion incorrecta
+5
 ##5
 ###!
 ###!
@@ -2981,7 +3068,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 15
 ###!
 #b == a
-Error::gen_driver:1:Operacion incorrecta
+false
 ##false
 ###!
 ###!------------------------------
@@ -2999,7 +3086,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 19
 ###!
 #b == a
-Error::gen_driver:1:Operacion incorrecta
+false
 ##false
 ###!
 ###!------------------------------
@@ -3019,7 +3106,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 56
 ###!
 #b == a
-Error::gen_driver:1:Operacion incorrecta
+false
 ##false
 ###!
 ###!------------------------------
@@ -3044,7 +3131,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 45
 ###!
 #b == a
-Error::gen_driver:1:Operacion incorrecta
+false
 ##false
 ###!
 ###!
@@ -3067,7 +3154,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 11
 ###!
 #b == a
-Error::gen_driver:1:Operacion incorrecta
+false
 ##false
 ###!
 ###!------------------------------
@@ -3083,7 +3170,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 4
 ###!
 #b == a
-Error::gen_driver:1:Operacion incorrecta
+false
 ##false
 ###!
 ###!------------------------------
@@ -3100,7 +3187,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 18
 ###!
 #b == a
-Error::gen_driver:1:Operacion incorrecta
+false
 ##false
 ###!
 ###!------------------------------
@@ -3119,7 +3206,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 7
 ###!
 #b == a
-Error::gen_driver:1:Operacion incorrecta
+false
 ##false
 ###!
 ###!------------------------------
@@ -3137,7 +3224,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 4
 ###!
 #b == a
-Error::gen_driver:1:Operacion incorrecta
+false
 ##false
 ###!
 ###!------------------------------
@@ -3156,7 +3243,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 87
 ###!
 #b == a
-Error::gen_driver:1:Operacion incorrecta
+false
 ##false
 ###!
 ###!------------------------------
@@ -3176,7 +3263,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 87
 ###!
 #b == a
-Error::gen_driver:1:Operacion incorrecta
+false
 ##false
 ###!
 ###!------------------------------
@@ -3197,7 +3284,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 87
 ###!
 #b == a
-Error::gen_driver:1:Operacion incorrecta
+false
 ##false
 ###!
 ###!------------------------------
@@ -3221,7 +3308,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 657
 ###!
 #b == a
-Error::gen_driver:1:Operacion incorrecta
+false
 ##false
 ###!
 ###!------------------------------
@@ -3243,7 +3330,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 87
 ###!
 #b == a
-Error::gen_driver:1:Operacion incorrecta
+false
 ##false
 ###!
 ###!
@@ -3266,7 +3353,7 @@ Error::gen_driver:1:Operacion incorrecta
 #init b cj_enters
 ###!
 #b == a
-Error::gen_driver:1:Operacion incorrecta
+false
 ##false
 ###!
 ###!------------------------------
@@ -3282,7 +3369,7 @@ Error::gen_driver:1:Operacion incorrecta
 #init b cj_enters
 ###!
 #b == a
-Error::gen_driver:1:Operacion incorrecta
+false
 ##false
 ###!
 ###!------------------------------
@@ -3300,7 +3387,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 4
 ###!
 #b == a
-Error::gen_driver:1:Operacion incorrecta
+false
 ##false
 ###!
 ###!------------------------------
@@ -3318,7 +3405,7 @@ Error::gen_driver:1:Operacion incorrecta
 #init b cj_enters
 ###!
 #b == a
-Error::gen_driver:1:Operacion incorrecta
+false
 ##false
 ###!
 ###!------------------------------
@@ -3337,7 +3424,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 12
 ###!
 #b == a
-Error::gen_driver:1:Operacion incorrecta
+false
 ##false
 ###!
 ###!------------------------------
@@ -3358,7 +3445,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 87
 ###!
 #b == a
-Error::gen_driver:1:Operacion incorrecta
+false
 ##false
 ###!
 ###!------------------------------
@@ -3377,7 +3464,7 @@ Error::gen_driver:1:Operacion incorrecta
 #init b cj_enters
 ###!
 #b == a
-Error::gen_driver:1:Operacion incorrecta
+false
 ##false
 ###!
 ###!------------------------------
@@ -3397,7 +3484,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 4
 ###!
 #b == a
-Error::gen_driver:1:Operacion incorrecta
+false
 ##false
 ###!
 ###!------------------------------
@@ -3423,7 +3510,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 12
 ###!
 #b == a
-Error::gen_driver:1:Operacion incorrecta
+false
 ##false
 ###!
 ###!------------------------------
@@ -3447,7 +3534,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 87
 ###!
 #b == a
-Error::gen_driver:1:Operacion incorrecta
+false
 ##false
 ###!
 ###!
@@ -3471,7 +3558,7 @@ Error::gen_driver:1:Operacion incorrecta
 #init b cj_enters
 ###!
 #b != a
-Error::gen_driver:1:Operacion incorrecta
+false
 ##false
 #a conte 0
 false
@@ -3483,7 +3570,7 @@ false
 false
 ##false
 #b card
-Error::gen_driver:1:Operacion incorrecta
+0
 ##0
 ###!
 ###!------------------------------
@@ -3499,10 +3586,10 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 12
 ###!
 #b != a
-Error::gen_driver:1:Operacion incorrecta
+false
 ##false
 #b card
-Error::gen_driver:1:Operacion incorrecta
+1
 ##1
 ###!
 ###!------------------------------
@@ -3520,10 +3607,10 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 13
 ###!
 #b != a
-Error::gen_driver:1:Operacion incorrecta
+false
 ##false
 #b card
-Error::gen_driver:1:Operacion incorrecta
+2
 ##2
 ###!
 ###!
@@ -3545,10 +3632,10 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix -13
 ###!
 #b != a
-Error::gen_driver:1:Operacion incorrecta
+false
 ##false
 #b card
-Error::gen_driver:1:Operacion incorrecta
+3
 ##3
 ###!
 ###!------------------------------
@@ -3573,10 +3660,10 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 43
 ###!
 #b != a
-Error::gen_driver:1:Operacion incorrecta
+false
 ##false
 #b card
-Error::gen_driver:1:Operacion incorrecta
+5
 ##5
 ###!
 ###!
@@ -3597,7 +3684,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 15
 ###!
 #b != a
-Error::gen_driver:1:Operacion incorrecta
+true
 ##true
 ###!
 ###!------------------------------
@@ -3615,7 +3702,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 19
 ###!
 #b != a
-Error::gen_driver:1:Operacion incorrecta
+true
 ##true
 ###!
 ###!------------------------------
@@ -3635,7 +3722,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 56
 ###!
 #b != a
-Error::gen_driver:1:Operacion incorrecta
+true
 ##true
 ###!
 ###!------------------------------
@@ -3660,7 +3747,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 45
 ###!
 #b != a
-Error::gen_driver:1:Operacion incorrecta
+true
 ##true
 ###!
 ###!
@@ -3683,7 +3770,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 11
 ###!
 #b != a
-Error::gen_driver:1:Operacion incorrecta
+true
 ##true
 ###!
 ###!------------------------------
@@ -3699,7 +3786,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 4
 ###!
 #b != a
-Error::gen_driver:1:Operacion incorrecta
+true
 ##true
 ###!
 ###!------------------------------
@@ -3716,7 +3803,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 18
 ###!
 #b != a
-Error::gen_driver:1:Operacion incorrecta
+true
 ##true
 ###!
 ###!------------------------------
@@ -3735,7 +3822,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 7
 ###!
 #b != a
-Error::gen_driver:1:Operacion incorrecta
+true
 ##true
 ###!
 ###!------------------------------
@@ -3753,7 +3840,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 4
 ###!
 #b != a
-Error::gen_driver:1:Operacion incorrecta
+true
 ##true
 ###!
 ###!------------------------------
@@ -3772,7 +3859,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 87
 ###!
 #b != a
-Error::gen_driver:1:Operacion incorrecta
+true
 ##true
 ###!
 ###!------------------------------
@@ -3792,7 +3879,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 87
 ###!
 #b != a
-Error::gen_driver:1:Operacion incorrecta
+true
 ##true
 ###!
 ###!------------------------------
@@ -3813,7 +3900,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 87
 ###!
 #b != a
-Error::gen_driver:1:Operacion incorrecta
+true
 ##true
 ###!
 ###!------------------------------
@@ -3837,7 +3924,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 657
 ###!
 #b != a
-Error::gen_driver:1:Operacion incorrecta
+true
 ##true
 ###!
 ###!------------------------------
@@ -3859,7 +3946,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 87
 ###!
 #b != a
-Error::gen_driver:1:Operacion incorrecta
+true
 ##true
 ###!
 ###!
@@ -3882,7 +3969,7 @@ Error::gen_driver:1:Operacion incorrecta
 #init b cj_enters
 ###!
 #b != a
-Error::gen_driver:1:Operacion incorrecta
+true
 ##true
 ###!
 ###!------------------------------
@@ -3898,7 +3985,7 @@ Error::gen_driver:1:Operacion incorrecta
 #init b cj_enters
 ###!
 #b != a
-Error::gen_driver:1:Operacion incorrecta
+true
 ##true
 ###!
 ###!------------------------------
@@ -3916,7 +4003,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 4
 ###!
 #b != a
-Error::gen_driver:1:Operacion incorrecta
+true
 ##true
 ###!
 ###!------------------------------
@@ -3934,7 +4021,7 @@ Error::gen_driver:1:Operacion incorrecta
 #init b cj_enters
 ###!
 #b != a
-Error::gen_driver:1:Operacion incorrecta
+true
 ##true
 ###!
 ###!------------------------------
@@ -3953,7 +4040,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 12
 ###!
 #b != a
-Error::gen_driver:1:Operacion incorrecta
+true
 ##true
 ###!
 ###!------------------------------
@@ -3974,7 +4061,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 87
 ###!
 #b != a
-Error::gen_driver:1:Operacion incorrecta
+true
 ##true
 ###!
 ###!------------------------------
@@ -3993,7 +4080,7 @@ Error::gen_driver:1:Operacion incorrecta
 #init b cj_enters
 ###!
 #b != a
-Error::gen_driver:1:Operacion incorrecta
+true
 ##true
 ###!
 ###!------------------------------
@@ -4013,7 +4100,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 4
 ###!
 #b != a
-Error::gen_driver:1:Operacion incorrecta
+true
 ##true
 ###!
 ###!------------------------------
@@ -4039,7 +4126,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 12
 ###!
 #b != a
-Error::gen_driver:1:Operacion incorrecta
+true
 ##true
 ###!
 ###!------------------------------
@@ -4063,7 +4150,7 @@ Error::gen_driver:1:Operacion incorrecta
 #insereix 87
 ###!
 #b != a
-Error::gen_driver:1:Operacion incorrecta
+true
 ##true
 ###!
 ###!
