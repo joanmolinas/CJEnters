@@ -41,7 +41,6 @@ void cj_enters::unir(const cj_enters &B) {
 }
 
 void cj_enters::intersectar(const cj_enters &B) {
-    if (B.card() == 0) return;
     node *aux = _first;
     while (aux != NULL) {
         if (!B.conte(aux->value)) {
