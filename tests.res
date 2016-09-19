@@ -434,7 +434,6 @@ true
 ###!
 #b unir a
 []
-
 ##[]
 #b conte 0
 false
@@ -463,7 +462,6 @@ false
 ###!
 #b unir a
 [12]
-
 ##[12]
 #b max
 12
@@ -491,7 +489,6 @@ false
 ###!
 #b unir a
 [12 13]
-
 ##[12 13]
 #b max
 13
@@ -523,7 +520,6 @@ false
 ###!
 #b unir a
 [-13 12 13]
-
 ##[-13 12 13]
 #b max
 13
@@ -558,7 +554,6 @@ false
 ###!
 #b unir a
 [-13 12 13 43 60]
-
 ##[-13 12 13 43 60]
 #b max
 60
@@ -589,7 +584,6 @@ false
 ###!
 #b unir a
 [12 15]
-
 ##[12 15]
 #b max
 15
@@ -617,7 +611,6 @@ false
 ###!
 #b unir a
 [12 15 19]
-
 ##[12 15 19]
 #b max
 19
@@ -647,7 +640,6 @@ false
 ###!
 #b unir a
 [-13 12 15 19 56]
-
 ##[-13 12 15 19 56]
 #b max
 56
@@ -682,7 +674,6 @@ false
 ###!
 #b unir a
 [-13 12 15 19 34 43 45 56 60 98]
-
 ##[-13 12 15 19 34 43 45 56 60 98]
 #b max
 98
@@ -715,7 +706,6 @@ false
 ###!
 #b unir a
 [11]
-
 ##[11]
 #b max
 11
@@ -741,7 +731,6 @@ false
 ###!
 #b unir a
 [4 11]
-
 ##[4 11]
 #b max
 11
@@ -768,7 +757,6 @@ false
 ###!
 #b unir a
 [11 18 26]
-
 ##[11 18 26]
 #b max
 26
@@ -797,7 +785,6 @@ false
 ###!
 #b unir a
 [-11 0 2 7 11]
-
 ##[-11 0 2 7 11]
 #b max
 11
@@ -825,7 +812,6 @@ false
 ###!
 #b unir a
 [4 11]
-
 ##[4 11]
 #b max
 11
@@ -854,7 +840,6 @@ false
 ###!
 #b unir a
 [11 12 44 87]
-
 ##[11 12 44 87]
 #b max
 87
@@ -884,7 +869,6 @@ false
 ###!
 #b unir a
 [1 4 11 44 87]
-
 ##[1 4 11 44 87]
 #b max
 87
@@ -915,7 +899,6 @@ false
 ###!
 #b unir a
 [11 12 44 87]
-
 ##[11 12 44 87]
 #b max
 87
@@ -949,7 +932,6 @@ false
 ###!
 #b unir a
 [11 12 44 54 87 111 657]
-
 ##[11 12 44 54 87 111 657]
 #b max
 657
@@ -981,7 +963,6 @@ false
 ###!
 #b unir a
 [11 14 30 44 87]
-
 ##[11 14 30 44 87]
 #b max
 87
@@ -1014,7 +995,6 @@ false
 ###!
 #b unir a
 [11]
-
 ##[11]
 #b max
 11
@@ -1040,7 +1020,6 @@ false
 ###!
 #b unir a
 [4 11]
-
 ##[4 11]
 #b max
 11
@@ -1068,7 +1047,6 @@ false
 ###!
 #b unir a
 [4 11]
-
 ##[4 11]
 #b max
 11
@@ -1096,7 +1074,6 @@ false
 ###!
 #b unir a
 [11 44 87]
-
 ##[11 44 87]
 #b max
 87
@@ -1125,7 +1102,6 @@ false
 ###!
 #b unir a
 [11 12 44 87]
-
 ##[11 12 44 87]
 #b max
 87
@@ -1156,7 +1132,6 @@ false
 ###!
 #b unir a
 [11 12 44 87]
-
 ##[11 12 44 87]
 #b max
 87
@@ -1185,7 +1160,6 @@ false
 ###!
 #b unir a
 [1 4 11 44 87]
-
 ##[1 4 11 44 87]
 #b max
 87
@@ -1215,7 +1189,6 @@ false
 ###!
 #b unir a
 [1 4 11 44 87]
-
 ##[1 4 11 44 87]
 #b max
 87
@@ -1251,7 +1224,6 @@ false
 ###!
 #b unir a
 [11 12 44 54 87 111 657]
-
 ##[11 12 44 54 87 111 657]
 #b max
 657
@@ -1285,7 +1257,6 @@ false
 ###!
 #b unir a
 [11 14 30 44 87]
-
 ##[11 14 30 44 87]
 #b max
 87
@@ -1319,7 +1290,6 @@ false
 ###!
 #b intersectar a
 []
-
 ##[]
 #b conte 0
 false
@@ -1348,7 +1318,6 @@ false
 ###!
 #b intersectar a
 [12]
-
 ##[12]
 #b max
 12
@@ -1376,7 +1345,6 @@ false
 ###!
 #b intersectar a
 [12 13]
-
 ##[12 13]
 #b max
 13
@@ -1408,7 +1376,6 @@ false
 ###!
 #b intersectar a
 [-13 12 13]
-
 ##[-13 12 13]
 #b max
 13
@@ -1443,7 +1410,6 @@ false
 ###!
 #b intersectar a
 [-13 12 13 43 60]
-
 ##[-13 12 13 43 60]
 #b max
 60
@@ -1474,7 +1440,6 @@ false
 ###!
 #b intersectar a
 []
-
 ##[]
 #b card
 0
@@ -1496,7 +1461,6 @@ false
 ###!
 #b intersectar a
 [15]
-
 ##[15]
 #b max
 15
@@ -1526,7 +1490,6 @@ false
 ###!
 #b intersectar a
 [15]
-
 ##[15]
 #b max
 15
@@ -1561,7 +1524,6 @@ false
 ###!
 #b intersectar a
 []
-
 ##[]
 #b card
 0
@@ -1588,7 +1550,6 @@ false
 ###!
 #b intersectar a
 []
-
 ##[]
 #b card
 0
@@ -1608,7 +1569,6 @@ false
 ###!
 #b intersectar a
 []
-
 ##[]
 #b card
 0
@@ -1629,7 +1589,6 @@ false
 ###!
 #b intersectar a
 []
-
 ##[]
 #b card
 0
@@ -1652,7 +1611,6 @@ false
 ###!
 #b intersectar a
 []
-
 ##[]
 #b card
 0
@@ -1674,7 +1632,6 @@ false
 ###!
 #b intersectar a
 [4]
-
 ##[4]
 #b max
 4
@@ -1703,7 +1660,6 @@ false
 ###!
 #b intersectar a
 [44]
-
 ##[44]
 #b max
 44
@@ -1733,7 +1689,6 @@ false
 ###!
 #b intersectar a
 [4]
-
 ##[4]
 #b max
 4
@@ -1764,7 +1719,6 @@ false
 ###!
 #b intersectar a
 [87]
-
 ##[87]
 #b max
 87
@@ -1798,7 +1752,6 @@ false
 ###!
 #b intersectar a
 [12 54]
-
 ##[12 54]
 #b max
 54
@@ -1830,7 +1783,6 @@ false
 ###!
 #b intersectar a
 [11 44 87]
-
 ##[11 44 87]
 #b max
 87
@@ -1863,7 +1815,6 @@ false
 ###!
 #b intersectar a
 []
-
 ##[]
 #b card
 0
@@ -1883,7 +1834,6 @@ false
 ###!
 #b intersectar a
 []
-
 ##[]
 #b card
 0
@@ -1905,7 +1855,6 @@ false
 ###!
 #b intersectar a
 [4]
-
 ##[4]
 #b max
 4
@@ -1933,7 +1882,6 @@ false
 ###!
 #b intersectar a
 []
-
 ##[]
 #b card
 0
@@ -1956,7 +1904,6 @@ false
 ###!
 #b intersectar a
 []
-
 ##[]
 #b card
 0
@@ -1981,7 +1928,6 @@ false
 ###!
 #b intersectar a
 [87]
-
 ##[87]
 #b max
 87
@@ -2010,7 +1956,6 @@ false
 ###!
 #b intersectar a
 []
-
 ##[]
 #b card
 0
@@ -2034,7 +1979,6 @@ false
 ###!
 #b intersectar a
 [4]
-
 ##[4]
 #b max
 4
@@ -2068,7 +2012,6 @@ false
 ###!
 #b intersectar a
 []
-
 ##[]
 #b card
 0
@@ -2096,7 +2039,6 @@ false
 ###!
 #b intersectar a
 [11 44 87]
-
 ##[11 44 87]
 #b max
 87
@@ -2130,7 +2072,6 @@ false
 ###!
 #b restar a
 []
-
 ##[]
 #a conte 0
 false
@@ -2159,7 +2100,6 @@ false
 ###!
 #b restar a
 []
-
 ##[]
 #b card
 0
@@ -2181,7 +2121,6 @@ false
 ###!
 #b restar a
 []
-
 ##[]
 #b card
 0
@@ -2207,7 +2146,6 @@ false
 ###!
 #b restar a
 []
-
 ##[]
 #b card
 0
@@ -2236,7 +2174,6 @@ false
 ###!
 #b restar a
 []
-
 ##[]
 #b card
 0
@@ -2261,7 +2198,6 @@ false
 ###!
 #b restar a
 [12]
-
 ##[12]
 #b max
 12
@@ -2289,7 +2225,6 @@ false
 ###!
 #b restar a
 [12]
-
 ##[12]
 #b max
 12
@@ -2319,7 +2254,6 @@ false
 ###!
 #restar a
 [12 14 19]
-
 ##[12 14 19]
 #b max
 19
@@ -2354,7 +2288,6 @@ false
 ###!
 #b restar a
 [-13 12 15 19 56]
-
 ##[-13 12 15 19 56]
 #b max
 56
@@ -2387,7 +2320,6 @@ false
 ###!
 #restar b
 []
-
 ##[]
 #a card
 0
@@ -2407,7 +2339,6 @@ false
 ###!
 #restar b
 []
-
 ##[]
 #a card
 0
@@ -2428,7 +2359,6 @@ false
 ###!
 #restar b
 []
-
 ##[]
 #a card
 0
@@ -2451,7 +2381,6 @@ false
 ###!
 #restar b
 []
-
 ##[]
 #a card
 0
@@ -2473,7 +2402,6 @@ false
 ###!
 #restar b
 []
-
 ##[]
 #a card
 0
@@ -2496,7 +2424,6 @@ false
 ###!
 #restar b
 []
-
 ##[]
 #a card
 0
@@ -2520,7 +2447,6 @@ false
 ###!
 #restar b
 []
-
 ##[]
 #a card
 0
@@ -2545,7 +2471,6 @@ false
 ###!
 #restar b
 [12]
-
 ##[12]
 #a max
 12
@@ -2579,7 +2504,6 @@ false
 ###!
 #restar b
 [12 54]
-
 ##[12 54]
 #a max
 54
@@ -2611,7 +2535,6 @@ false
 ###!
 #restar b
 []
-
 ##[]
 #a card
 0
@@ -2638,7 +2561,6 @@ false
 ###!
 #restar b
 [11]
-
 ##[11]
 #a max
 11
@@ -2664,7 +2586,6 @@ false
 ###!
 #restar b
 [4 11]
-
 ##[4 11]
 #a max
 11
@@ -2692,7 +2613,6 @@ false
 ###!
 #restar b
 [11]
-
 ##[11]
 #a max
 11
@@ -2720,7 +2640,6 @@ false
 ###!
 #restar b
 [11 44 87]
-
 ##[11 44 87]
 #a max
 87
@@ -2749,7 +2668,6 @@ false
 ###!
 #restar b
 [11 44 87]
-
 ##[11 44 87]
 #a max
 87
@@ -2780,7 +2698,6 @@ false
 ###!
 #restar b
 [11 44]
-
 ##[11 44]
 #a max
 44
@@ -2809,7 +2726,6 @@ false
 ###!
 #restar b
 [1 4 11 44 87]
-
 ##[1 4 11 44 87]
 #a max
 87
@@ -2839,7 +2755,6 @@ false
 ###!
 #restar b
 [1 11 44 87]
-
 ##[1 11 44 87]
 #a max
 87
@@ -2875,7 +2790,6 @@ false
 ###!
 #restar b
 [11 44 87 111 657]
-
 ##[11 44 87 111 657]
 #a max
 657
@@ -2909,7 +2823,6 @@ false
 ###!
 #restar b
 [14 30]
-
 ##[14 30]
 #a max
 30

@@ -142,7 +142,7 @@ void cj_enters::print(ostream &os) const {
       if (aux->next != NULL) cout<<" ";
       aux = aux->next;
     }
-    os<<"]"<<endl;
+    os<<"]";
 }
 
 void cj_enters::_add_front(int e) {
