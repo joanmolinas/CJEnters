@@ -44,9 +44,11 @@ void cj_enters::intersectar(const cj_enters &B) {
     node *aux = _first;
     while (aux != NULL) {
         if (!B.conte(aux->value)) {
-            int val = aux->value;
-            aux = aux->next;
-            _delete_node(val);
+            // int val = aux->value;
+            // aux = aux->next;
+            node *tmp = aux->next;
+            _delete_node(aux);
+            aux = tmp;
         } else aux = aux->next;
     }
 }
@@ -56,9 +58,11 @@ void cj_enters::restar(const cj_enters &B) {
     node *aux = _first;
     while (aux != NULL) {
         if (B.conte(aux->value)) {
-            int val = aux->value;
-            aux = aux->next;
-            _delete_node(val);
+            // int val = aux->value;
+            // aux = aux->next;
+            node *tmp = aux->next;
+            _delete_node(aux);
+            aux = tmp;
         } else aux = aux->next;
     }
 }
@@ -184,31 +188,21 @@ void cj_enters::_delete() {
     _count = 0;
 }
 
-void cj_enters::_delete_node(int e) {
-    node *tmp;
-    if (_first->value == e) {
-        tmp = _first;
-        _first = _first->next;
-        if (_first != NULL) _first->prev = NULL;
-        delete tmp;
-    } else if(_last->value == e) {
-        tmp = _last;
-        _last = _last->prev;
-        _last->next = NULL;
-        delete tmp;
-    } else {
-        tmp = _first->next;
-        bool deleted = false;
-        while (!deleted && tmp->next != NULL) {
-            if (tmp->value == e) {
-                tmp->prev->next = tmp->next;
-                tmp->next->prev = tmp->prev;
-                delete tmp;
-                deleted = true;
-            } else tmp = tmp->next;
-        }
-    }
-    --_count;
+void cj_enters::_delete_node(node *n) {
+  if (n == _first) {
+    _first = _first->next;
+    if (_first != NULL) _first->prev = NULL;
+    delete n;
+  } else if(n == _last) {
+    _last = _last->prev;
+    _last->next = NULL;
+    delete n;
+  } else {
+    n->prev->next = n->next;
+    n->next->prev = n->prev;
+    delete n;
+  }
+  --_count;
 }
 
 void cj_enters::_copy(node *first) {

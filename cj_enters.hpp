@@ -56,7 +56,7 @@ private:
     //PRE: El node amb el valor e no pot ser NULL
     //POST: Borra el node amb el valor e, allibera la memòria i torna a lincar
     //el node anterior amb el següent.
-    void _delete_node(int e);
+    void _delete_node(node *n);
 
     //PRE: El valor e no ha d'estar en el conjunt.
     //POST: Crea i afegeix un node nou i l'afegeix d'avant del conjunt.
@@ -67,7 +67,7 @@ private:
     void _add_back(int e);
 
     //PRE: Prev no ha de ser null i new_node tampoc
-    //POST: Crea i afegeix entre la posició 2 i la n-1 del conjunt 
+    //POST: Crea i afegeix entre la posició 2 i la n-1 del conjunt
     void _add(node *prev, node *new_node);
 };
 
