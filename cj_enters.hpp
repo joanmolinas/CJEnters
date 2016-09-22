@@ -53,9 +53,9 @@ private:
     //POST: Borra i allibera la memòria de tots els nodes del conjunt
     void _delete();
 
-    //PRE: El node amb el valor e no pot ser NULL
-    //POST: Borra el node amb el valor e, allibera la memòria i torna a lincar
-    //el node anterior amb el següent.
+    //PRE: El node n no pot ser NULL
+    //POST: Enllaça el anterior i següent a n entre ells i allibera la memòria del
+    //node n
     void _delete_node(node *n);
 
     //PRE: El valor e no ha d'estar en el conjunt.
